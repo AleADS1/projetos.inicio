@@ -24,7 +24,7 @@ def clear_expression():
 root = tk.Tk()
 root.title("Calculadora")
 
-# Usando uma StringVar para gerenciar o conteúdo  que mostra a expressão
+# Usando uma StringVar para gerenciar o conteúdo  
 expression = tk.StringVar()
 
 # Criando a interface
@@ -56,5 +56,5 @@ for i in range(5):
     for j in range(4):
         root.grid_columnconfigure(j, weight=1)
 
-# Iniciando o loop principal da interface
+# Iniciando o loop 
 root.mainloop()
